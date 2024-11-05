@@ -1,6 +1,7 @@
 import { createStore } from 'vuex';
 import gamesData from '../assets/juegos.json';
 
+//segun lo conversado en este codigo, por estar con Vue3 no utilizo mapState y mapActions ... se usan otros equivalentes... que serian useStore(), computed, y store.dispatch
 const store = createStore({
   state: {
     games: gamesData
@@ -29,3 +30,5 @@ const store = createStore({
 });
 
 export default store;
+
+
